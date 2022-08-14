@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa de javascript</title>
+
+    <!-- <script> // Pertenece al # 2
+        function mostraralerta(){
+            alert('hizo clic');
+        }
+        function hacerclic(){
+            document.getElementsByTagName('p')[0].onclick=mostraralerta;
+        }
+        window.onload=hacerclic;
+    </script> -->
+</head>
+<body>
+    <h1>Programa de javascript</h1>
+    <!-- <script>
+        let dato1, dato2, num1, num2;
+
+        dato1 = window.prompt("Introduce primer número ?", "0");
+        num1 = parseInt(dato1);
+        dato2 = window.prompt("Introduce segundo número ?", "0");
+        num2 = parseInt(dato2);
+
+        let resultado = num1 - num2;
+        let multimplicacion = num1 * num2;
+
+        document.write(`<br/> <br/> La resta de ${num1} y ${num2} es ${resultado}<br/><br/>`);
+        document.write(`La multimplicación de ${num1} y ${num2} es ${multimplicacion}`)
+    </script> -->
+    
+    <!-- <div id="principal"> <!--Pertenece al # 2
+        <p>Hacer clic</p>
+        <p>No hacer clic</p>
+    </div> -->
+
+
+    <!--
+    <script>
+        let dato1, dato2, num1, num2, resultado;
+
+        dato1 = window.prompt("Primer número?", "0");
+        num1 = parseInt(dato1);
+
+        dato2 = window.prompt("Segundo número?", "0");
+        num2 = parseInt(dato2);
+
+        if (num1 > num2)
+        {
+            resultado = " El primero";
+        }
+        else
+        {
+            resultado = " El segundo";
+        }
+        document.write(` <h3> El numero mayor es ${resultado} </h3>`);
+    </script>
+    -->
+
+
+    <script>
+        let nota1, nota2, nota3;
+        let dato1, dato2, dato3, media;
+
+        dato1 = window.prompt("Primer numero?", "0");
+        nota1 = parseInt(dato1);
+
+        dato2 = window.prompt("Segundo numero?", "0");
+        nota2 = parseInt(dato2);
+
+        dato3 = window.prompt("Tercer numero?", "0");
+        nota3 = parseInt(dato3);
+
+        media = (nota1 + nota2 + nota3)/3;
+         if (media < 5)
+         {
+             resultat = " Supendido";
+         }
+         else
+        {
+            resultat = " Aprobado";
+        } 
+        document.write(` <h3>La nota final es ${resultat} </h3> `);
+    </script>
+</body>
+</html>

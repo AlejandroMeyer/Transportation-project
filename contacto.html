@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contacto</title>
+        <link rel="stylesheet" href="../css/estilost.css">
+        <link rel="stylesheet" href="../css/boton.css">
+        <link rel="stylesheet" href="../css/animacion.css">
+        <link rel="stylesheet" href="../css/texto.css">
+        <link rel="stylesheet" href="../css/contacto.css"> 
+
+        <script>
+            function iniciar(){
+                nombre1=document.getElementById("nombre");
+                nombre2=document.getElementById("apellido");
+                nombre1.addEventListener("input", validacion, false);
+                nombre2.addEventListener("input", validacion, false);
+                validacion();
+            }
+            function validacion(){
+                if (nombre1.value=='' && nombre2.value==''){
+                    nombre1.setCustomValidity('inserte al menos un nombre');
+                    nombre1.style.background='#FFFFFF';
+                }else{
+                    nombre1.setCustomValidity('');
+                    nombre1.style.background='#FFFFFF';
+                }
+            }
+            window.addEventListener("send", iniciar,false);
+        </script>
+    </head>
+
+    <body>
+        <div id="contenedor-titulo">
+            <h1 class="titulo">TRANSPORTES COMERCIALES MYR</h1>
+        </div>
+        <header>
+            <nav>
+                <div id="contenedor-indice">
+                    <div width="16.6%" class="item-menu"><a href="/HTML/index.html">Inicio</a></div>
+                    <div width="16.6%" class="item-menu"><a href="../servicios.html">Servicios</a></div>
+                    <!-- <div width="16.6%" class="item-menu"><a href="../sucursales.html">Sucursales</a></div> -->
+                    <div width="16.6%" class="item-menu"><a href="../nosotros.html">Nosotros</a></div>
+                    <div width="16.6%" class="item-menu"><a href="../contacto.html">Contacto</a></div>
+                </div>
+            </nav>
+        </header>
+        
+        <section id="contenedor-contacto">
+            <div id="contenedores-hijos-cotacto">
+                <div>
+                    <form name="registracion" method="get">
+                            <div>
+                                <label for="name">Nombre:</label>
+                                <input placeholder="Alejandro" type="text" id="nombre" name="nombre" required="required">
+                            </div>
+                            <label for="name">Apellidos:</label>
+                                <input placeholder="Paterno Materno" type="text" id="apellido" name="apellido" required="required">
+                            <div>
+                                <label for="mail">Email:</label>
+                                <input placeholder="correo@ejemplo.com" type="email" id="mail" name="uer_email" required="required">
+                            </div>
+                            <div>
+                                <label for="msg">Mensaje:</label>
+                                <textarea placeholder="Pon el servicio en el cuál estás interesado." id="msg"
+                                    name="uer_mesage" required="required"></textarea>
+                            </div>
+                            <div>
+                                <label for="fecha">Fecha:</label>
+                                <input type="date" name="fecha" id="fecha" required="required">
+                            </div>
+                            <div>
+                                <input type="checkbox" name="privacidad" id="privacidad" required="required">
+                                <label for="privvacidad">He leído y acepto la privacidad de Transportes Comerciales MYR</label>
+                            </div>
+                            <div>
+                                <label for="submit"></label>
+                                <input type="submit" required="required">
+                            </div>
+                    </form>
+                </div>             
+
+            </div>
+
+            <div id="contenedores-hijos">
+                <div id="contenedores-hijos-cotacto">
+                    <img src="/img/carreteras.gif" width="60%" >
+                    <p class="texto-blanco">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis minima totam ab nam aperiam ad ipsa reiciendis cum, aspernatur maiores, excepturi fugiat porro repudiandae. Ad unde quidem praesentium adipisci in?</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section>
+           
+        </section>
+        
+
+
+        <br><br><br><br>
+
+        <footer>
+        <section id="contenedor-padre">
+            <div id="contenedores-hijos">
+                <p class="texto-blanco">Puebla, Mx | xx-xx-xx-xx-xx </p>
+                <img src="../img/mexico.jpg" width="50"/>
+            </div>
+            <div  id="contenedores-hijos">
+                <p class="texto-blanco">Patrocinador oficial</p>
+                <img src="../img/agua.jpg" width="150"/>
+            </div>
+        </section>
+        </footer>
+
+    </body>
+
+</html>
