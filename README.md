@@ -21,3 +21,9 @@ Comentarios:
 * El proyecto consiste en la creación de una empresa con una landing page para ofrecer algún tipo de servicio, en este caso de transportes de mercancías. 
 * El index normalmente debe encontrarse en el apartado principal, sin embargo por una organización diferente se encuentra de manera inversa a las demás páginas.
 * El proyecto no cuenta con una página maestra por lo que el indice y el footer se encuentran en cada página. 
+
+
+
+* Preview / Vista preliminar
+
+![Example of index](https://github.com/AlejandroMeyer/Transportation-project/blob/main/img/index.png)
