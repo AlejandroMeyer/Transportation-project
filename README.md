@@ -17,7 +17,7 @@ Este proyecto representó el 70% de la calificación para conseguir el certifica
 
 
 Comentarios:
-* El INDEX se encuentra dentro de la carpeta de HTML
-* El proyecto consiste en la creación de una empresa con una landing page para ofrecer algún tipo de servicios, en este caso de transportes de mercancías. 
+* El INDEX se encuentra dentro de la carpeta de HTML.
+* El proyecto consiste en la creación de una empresa con una landing page para ofrecer algún tipo de servicio, en este caso de transportes de mercancías. 
 * El index normalmente debe encontrarse en el apartado principal, sin embargo por una organización diferente se encuentra de manera inversa a las demás páginas.
 * El proyecto no cuenta con una página maestra por lo que el indice y el footer se encuentran en cada página. 
