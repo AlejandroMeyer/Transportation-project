@@ -1,0 +1,37 @@
+/*ANIMACION DEL TRAILER*/
+.animacion-img {
+    width: 100%;
+    margin: auto;
+    padding: 15px;
+    text-align: right;
+}
+
+.animacion-img img:hover {
+    /*al poner dos veces img le estoy indicando para todas las img dentro de*/
+    transform: translate(-150px, 10px);
+    transition: all 4s ease-in;
+}
+
+/*ZOOM DE IMAGEN*/
+.img-zoom {
+    -webkit-transition: all .9s ease;
+    /* Safari y Chrome */
+    -moz-transition: all .9s ease;
+    /* Firefox */
+    -o-transition: all .9s ease;
+    /* IE 9 */
+    -ms-transition: all .9s ease;
+    /* Opera */
+    /* width:100%; */
+    width: 300px;
+    height: 180px;
+    overflow: hidden;
+}
+
+.img-zoom:hover {
+    -webkit-transform: scale(1.20);
+    -moz-transform: scale(1.20);
+    -ms-transform: scale(1.20);
+    -o-transform: scale(1.20);
+    transform: scale(1.20);
+}

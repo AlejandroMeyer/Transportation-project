@@ -1,0 +1,20 @@
+#contenedor-contacto{
+	display: flex;
+	text-align:center;
+	/* padding-bottom:10px; */
+	/* border: 2px solid yellow; */
+	width:100%;
+	justify-content: center;
+	background: linear-gradient(165deg, rgb(226, 226, 226) 40%, rgb(0, 0, 0)  60%, rgb(40, 65, 66));
+	color: black;
+	font-size: large; /*tamaño de letra*/
+}
+#contenedores-hijos-cotacto{   
+    text-align:center;
+	/* width:50%;	 */
+	justify-content: center;
+	color: black;
+	background: transparent;
+    /* border:1px solid blue; */
+	margin: auto;
+}

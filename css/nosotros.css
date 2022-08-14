@@ -1,0 +1,51 @@
+#contenedor-nosotros-padre{
+	display: flex;
+	text-align:center;
+	padding-bottom:10px;
+	/* border: 2px solid yellow; */
+	width:100%;
+	/* border-radius:40px 40px 40px 40px; */
+	justify-content: center;
+	background: linear-gradient(100deg, white 50%, black  50%);
+	color: black;
+	font-size: large; /*tamaño de letra*/
+    margin: auto;
+}
+.contenedores-nosotros-hijo{   
+    text-align:center;
+	width:50%;
+	justify-content: center;
+	color: black;
+	background: transparent;
+    margin: auto;
+    /* padding-bottom: 30px; */
+    /* border:1px solid yellow; */
+    /* border-radius:10px 20px 10px 20px; */
+}
+
+
+/* AQUI VA EL FORMATO DE LAS CARDS */
+
+#contenedor-cards{
+	display: flex;
+	text-align:center;
+	padding-bottom:10px;
+	/* border: 2px solid rgb(36, 219, 11); */
+	width:100%;
+	/* border-radius:40px 40px 40px 40px; */
+	justify-content: center;
+	/* background: linear-gradient(100deg, white 50%, black  50%); */
+	color: black;
+	font-size: large; /*tamaño de letra*/
+}
+.contenedores-cards-hijos{   
+    text-align:center;
+	width:25%;
+	justify-content: center;
+	color: black;
+	background: transparent;
+    /* padding-bottom: 30px; */
+    /* border:4px solid rgb(14, 186, 209); */
+    /* border-radius:10px 20px 10px 20px; */
+    
+}

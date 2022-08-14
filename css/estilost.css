@@ -1,0 +1,110 @@
+body{  /*El body se puede usar para carracteristicas generales de otda la página*/
+	/*background-color: rgb(184, 169, 88);*/
+	font-family: 'Times New Roman', Times, serif;
+	color: black;
+	/* background: linear-gradient(90deg, white 0%, black 100%); */
+}
+h1{
+    color:white;
+    font-size: xx-large;
+}
+#contenedor-titulo{
+	display: flex;
+	text-align:center;
+	padding-bottom:10px;
+	border: 1px solid;
+	border-color: white;
+	width:100%;
+	/* border-radius:40px 40px 40px 40px; */
+	justify-content: center;
+	background: black; /*color de fono*/
+	color: white; /*color de letras*/
+	font-size: medium;
+}
+#contenedor-indice{
+	display: flex;
+	text-align:center;
+	padding-bottom:10px;
+	border: 1px solid;
+	border-color: white;
+	width:100%;
+	/* border-radius:40px 40px 40px 40px; */
+	justify-content: center;
+	background: white; /*color de fono*/
+	color: black; /*color de letras*/
+	font-size: medium;
+}
+#contenedor-seccion{
+	display: flex;
+	text-align:center;
+	padding-bottom:10px;
+	/* border: 2px solid; */
+	width:100%;
+	/* border-radius:40px 40px 40px 40px; */
+	justify-content: center;
+	background: transparent;
+	color: black;
+	font-size: large; /*tamaño de letra*/
+}
+#contenedor-trailer{
+	display: flex;
+	text-align:center;
+	padding-bottom:10px;
+	/* border: 2px solid; */
+	width:100%;
+	/* border-radius:40px 40px 40px 40px; */
+	justify-content: center;
+	background: linear-gradient(100deg, rgb(0, 0, 0) 40%, white  60%);
+	color: black;
+	font-size: large; /*tamaño de letra*/
+}
+#contenedor-padre{
+	display: flex;
+	text-align:center;
+	/* padding-top: 50px;
+	padding-bottom:50px; */
+	border: 1px solid;
+	width:100%;
+	background: black; /*Para degradar colores*/
+	/* border-radius:40px 40px 40px 40px; */
+	justify-content: center;
+	margin: auto;
+}
+/* .texto{
+	font-size:30px;
+    color:rgb(228, 15, 199);
+} */
+#contenedores-hijos{   
+    text-align:center;
+	width:100%;
+	justify-content: center;
+	color: black;
+	background: transparent;
+    /* padding-bottom: 30px; */
+    /* border:1px solid blue; */
+    /* border-radius:10px 20px 10px 20px; */
+}
+/* .texto2{
+	font-size:30px;
+    color:rgb(24, 179, 63);
+} */
+.item-menu{
+	text-align:center;
+    border-bottom:4px solid transparent; /*estado inicial*/ /*simepre existe una líea*/
+	padding:15px;
+	font-size: medium;
+}
+.item-menu a{  /*Todas las a que tengan item menu*/
+	text-decoration: none;
+	color: black;
+}
+.item-menu:hover{  /*Esto me sirve para darle efecto al menu*/
+	text-align:center;
+    border-bottom:4px solid black;
+	padding:15px;
+}
+/* nav{
+	position: fixed;
+	width: 100vw;
+} */
+

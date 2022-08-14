@@ -1,0 +1,69 @@
+.titulo{
+    color: white;
+}
+.encabezado{
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+}
+.texto-blanco{
+    color: white;
+}
+.textoYT{
+    color: rgb(70, 61, 61);
+}
+.encabezado-negro{
+    font-size: x-large;
+    color: rgb(3, 3, 3);
+    font-weight: 800;
+    text-align: center;
+    justify-content: center;
+}
+.titulo-negro{
+    font-size:large;
+    color: rgb(3, 3, 3);
+    font-weight: 800;
+    text-align: center;
+    justify-content: center;
+}
+.texto-negro{
+    color: rgb(15, 15, 15);
+}
+.texo-card-titulo{
+    color: white;
+    font-size: large;
+}
+.texto-in-cards{
+    color: white;
+}
+.texto-servicios-blanco{
+    color: white;
+    font-size: x-large;
+    position: relative;
+    top: 50%;
+    /* bottom: 50%; */
+}
+.texto-servicios-negro{
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+    margin: auto;
+}
+.ttilo-leermas{
+    color: black;
+    font-size: x-large;
+}
+.texto-construccion{
+    font-size: 70px;
+    color: rgb(226, 0, 0);
+    justify-content: center;
+    text-align: center;
+}
+.texto2-construccion{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    text-align: center;
+}
