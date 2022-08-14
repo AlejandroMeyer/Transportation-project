@@ -24,6 +24,6 @@ Comentarios:
 
 
 
-* Preview / Vista preliminar
+### Preview / Vista preliminar
 
 ![Example of index](https://github.com/AlejandroMeyer/Transportation-project/blob/main/img/index.png)
